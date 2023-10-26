@@ -1,0 +1,181 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.1.6.1690989031
+Updated: 2023-08-02 15:10:31
+
+*/
+.custom-logo{
+  width:500px!important;
+}
+.menu-commander {
+  background-color: #E0B9B4;
+}
+
+#informations h3, #livraison h3 {
+    color: white;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Syne', sans-serif;
+  }
+
+#commander {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Syne', sans-serif;
+  }
+
+  #informations, #livraison {
+    flex: 1;
+    padding: 10px;
+    color: white;
+  }
+
+.separator {
+    width: 1px;
+    background-color: white;
+    margin: 0 20px;
+  }
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/******************************/
+
+.search-bar {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quantity-bar {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.quantity-bar input {
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.quantity-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.minus-button {
+  width: 100;
+  border: none;
+  background-color: #E0B9B4;
+  cursor: pointer;
+  border-radius: 0px 0px 10px 0px;
+  color: white;
+  border-top: 1px solid white;
+  height: 30px;
+  width: 40px;
+}
+
+.plus-button {
+  border: none;
+  background-color: #E0B9B4;
+  cursor: pointer;
+  border-radius: 0px 10px 0px 0px;
+  color: white;
+  height: 30px;
+  width: 40px;
+}
+
+/****************/
+
+#nous-contacter-form {
+  justify-content: center;
+}
+
+
+.commander-form{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.commander-form>div{
+  max-width: 80px;
+    display: grid;
+    grid-template-columns: 70px auto;
+}
+
+.commander-form > div button{
+  padding: 0 15px;
+}
+
+.commander-form > div button:nth-child(1){
+  border-bottom: 1px solid #fff;
+  border-radius: 0 10px 0px 0;
+}
+
+.commander-form > div button:nth-child(2){
+  border-radius: 0px 0 10px 0;
+}
+
+.commander-form > div input{
+  border-radius:10px 0 0 10px;
+}
+
+.main-navigation>ul{
+  align-items: center!important;
+}
+
+#menu-item-479 a {
+  background-color: #E0B9B4;
+  color: white;
+}
+
+#menu-item-479 :hover {
+  color: black;
+}
+
+#menu-item-477 span {
+  margin-right: 20px;
+  color: black;
+}
+
+#menu-item-477 :hover {
+  color: #E0B9B4;
+}
+
+#menu-item-254 :hover {
+  color: #E0B9B4;
+}
+
+#elementor-widget-container {
+  padding: 0px;
+}
+
+.ast-builder-menu-1 .menu-item.current-menu-item > .menu-link, .ast-builder-menu-1 .inline-on-mobile .menu-item.current-menu-item > .ast-menu-toggle, .ast-builder-menu-1 .current-menu-ancestor > .menu-link {
+  color: black;
+}
